@@ -21,6 +21,26 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(102, 225, 102);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#para-2 {
+    margin-top: -10px;
+    margin-left: -70px;
+}
+
+#cursor {
+    width: 10px;
+    height: 14px;
+    margin-left: 5px;
 }
