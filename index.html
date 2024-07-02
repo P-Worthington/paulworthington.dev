@@ -12,7 +12,7 @@
 
 <body>
     <!--Nav-->
-    <div class="container-fluid navalert-container">
+    <div class="container-fluid navalert-container" id="home">
         <nav class="navbar navbar-dark navbar-expand-sm">
             <a href="/" class="navbar-brand"><img src="assets/images/logo.png"></a>
 
@@ -21,14 +21,15 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Search Methods</a>
-                            <a class="dropdown-item" href="#">Know Your Nouns</a>
-                            <a class="dropdown-item" href="#">British Wildlife Conservation</a>
+                            <a class="dropdown-item" href="#portfolio">Search Methods</a>
+                            <a class="dropdown-item" href="#portfolio">Know Your Nouns</a>
+                            <a class="dropdown-item" href="#portfolio">British Wildlife Conservation</a>
                         </div>
                     </li>
 
@@ -58,7 +59,7 @@
     <!-- Quotes -->
     <div class="container-wrapper about-bg">
         <div class="container quotes-container content-container">
-            <section class="quotes">
+            <section class="quotes" id="about">
                 <div class="row">
                     <div class="col-12 page-header">
                         <h2 class="text-uppercase">About</h2>
@@ -101,7 +102,7 @@
             <div class="container features-container content-container">
                 <section class="features">
                     <div class="row">
-                        <div class="col-12 page-header">
+                        <div class="col-12 page-header" id="portfolio">
                             <h2 class="text-uppercase">Portfolio:</h2>
                             <hr class="block-divider block-divider--short block-divider--white">
                         </div>
@@ -148,7 +149,7 @@
     </div>
 
     <div class="container-wrapper about-bg">
-        <div class="container quotes-container content-container">
+        <div class="container quotes-container content-container" id="contact">
             <section class="quotes">
                 <div class="row">
                     <div class="col-12 page-header">
