@@ -276,4 +276,12 @@ p {
         margin-bottom: 30px;
         width: 120px
     }
+
+    .dropdown-menu, .navbar {
+        background-color: rgba(0, 0, 0, .99);
+    }
+
+    .opaque-overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
   }
