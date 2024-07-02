@@ -89,6 +89,10 @@ p {
     color: #a7a7a7;
 }
 
+.navbar-text a {
+    color: #a7a7a7;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -168,6 +172,11 @@ p {
     width: 35px;
 }
 
+.media-body a {
+    color: #a7a7a7;
+    justify-content: center;
+}
+
 .media-img {
     width: 150px;
     height: 150px;
@@ -212,6 +221,11 @@ p {
     text-align: center;
 }
 
+.git-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* Page Headers */
 
 .page-header {
@@ -250,6 +264,10 @@ p {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.contact {
+    text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
