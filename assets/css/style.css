@@ -291,11 +291,13 @@ p {
     }
 
     .projects-bg {
-        background: url('../images/skyline.jpg') no-repeat center;
+        background-color: #ffffff;
     }
 
     .callout-container {
-        background: url('../images/skyline.jpg') no-repeat center;
+        background: url('../images/climb_dark.jpg') no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
     }
 
     .opaque-overlay {
@@ -304,7 +306,7 @@ p {
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.1);
     }
 
     .portfolio-img {
@@ -318,7 +320,7 @@ p {
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.95);
+        background-color: rgba(0, 0, 0, 0.8);
     }
 
     .quotes-container {
