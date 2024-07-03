@@ -20,9 +20,6 @@ p {
     height: 90vh;
 
     background: url('../images/climb_dark.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -152,9 +149,6 @@ p {
 
 .projects-bg {
     background: url('../images/climb_dark.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -193,7 +187,7 @@ p {
 .portfolio-img {
     width: 100%;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -270,6 +264,12 @@ p {
     text-align: center;
 }
 
+.btm-bg {
+    background: url('../images/skydive_dark.jpg') no-repeat center;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
 @media only screen and (max-width: 767px) {
     .media-img {
         margin-top: 30px;
@@ -283,5 +283,27 @@ p {
 
     .opaque-overlay {
         background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .projects-bg {
+        background: url('../images/skyline.jpg') no-repeat center;
+    }
+
+    .callout-container {
+        background: url('../images/skyline.jpg') no-repeat center;
+    }
+
+    .opaque-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .portfolio-img {
+        width: 300px;
+        object-fit: contain;
     }
   }
