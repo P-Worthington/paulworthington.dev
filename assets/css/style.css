@@ -266,11 +266,16 @@ p {
 
 .btm-bg {
     background: url('../images/skydive_dark.jpg') no-repeat center;
-    height: 50vh;
+    height: 70vh;
     background-attachment: fixed;
 }
 
 @media only screen and (max-width: 767px) {
+    .navalert-container {
+        position: fixed;
+        height: 50px;
+    }
+    
     .media-img {
         margin-top: 30px;
         margin-bottom: 30px;
