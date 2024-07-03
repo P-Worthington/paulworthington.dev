@@ -192,6 +192,7 @@ p {
     font-size: 40px;
     font-weight: 600;
     letter-spacing: 6px;
+    color: #ffffff;
 }
 
 .port-desc {
@@ -221,6 +222,16 @@ p {
     object-fit: contain;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/*Work History*/
+
+.work-hist {
+    background-color: red;
+}
+
+.work-hist h2 {
+    color: #ffffff;
 }
 
 /* Buttons */
