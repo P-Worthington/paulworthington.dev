@@ -306,4 +306,18 @@ p {
         width: 300px;
         object-fit: contain;
     }
+
+    .overlay-dark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.95);
+    }
+
+    .quotes-container {
+        border: green;
+        border-width: 20px;
+    }
   }
