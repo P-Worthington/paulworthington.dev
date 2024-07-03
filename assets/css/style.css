@@ -17,7 +17,7 @@ p {
 
 
 .callout-container {
-    height: 90vh;
+    height: 50vh;
 
     background: url('../images/climb_dark.jpg') no-repeat center;
     background-size: cover;
@@ -133,6 +133,15 @@ p {
 }
 
 .about-bg h2 {
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+.about-bg p {
+    letter-spacing: 2px;
+}
+
+.about-bg h2 {
     color: white;
 }
 
@@ -174,7 +183,7 @@ p {
 .media-img {
     width: 150px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -266,7 +275,7 @@ p {
 
 .btm-bg {
     background: url('../images/skydive_dark.jpg') no-repeat center;
-    height: 70vh;
+    height: 50vh;
     background-attachment: fixed;
 }
 
@@ -280,6 +289,10 @@ p {
         margin-top: 30px;
         margin-bottom: 30px;
         width: 120px
+    }
+
+    .callout-container {
+        height: 50vh;
     }
 
     .dropdown-menu, .navbar {
@@ -296,8 +309,8 @@ p {
 
     .callout-container {
         background: url('../images/climb_dark.jpg') no-repeat center;
-        background-attachment: fixed;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     .opaque-overlay {
