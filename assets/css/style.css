@@ -109,7 +109,7 @@ p {
 
 .jumbotron-header {
     line-height: 0.6;
-    margin-top: 50px;
+    margin-top: 0;
 }
 
 .green-prd {
@@ -186,6 +186,21 @@ p {
 .media-body a {
     color: #a7a7a7;
     justify-content: center;
+}
+
+.portfolio-title {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.port-desc {
+    margin-top: -55px;
+}
+
+.port-desc p {
+    line-height: 2;
+    letter-spacing: 2px;
 }
 
 .media-img {
