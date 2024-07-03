@@ -201,11 +201,12 @@ p {
 .port-desc p {
     line-height: 2;
     letter-spacing: 2px;
+    margin-left: 100px;
 }
 
 .media-img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     object-fit: contain;
     display: block;
     margin-left: auto;
@@ -298,7 +299,7 @@ p {
 
 .btm-bg {
     background: url('../images/skydive_dark.jpg') no-repeat center;
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
     background-attachment: fixed;
 }
