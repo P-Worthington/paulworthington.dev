@@ -87,6 +87,7 @@ p {
     color: #a7a7a7;
 }
 
+
 .navbar-text a {
     color: #a7a7a7;
 }
@@ -132,7 +133,6 @@ p {
 /* Block dividers */
 
 .portfolio-header {
-    background-color: red;
     text-align: center;
 }
 
@@ -201,20 +201,18 @@ p {
 .port-desc p {
     line-height: 2;
     letter-spacing: 2px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .media-img {
-    width: 250px;
+    width: 350px;
     height: 250px;
     object-fit: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     border-radius: 5px;
-    margin-top: auto;
-    margin-bottom: auto;
+
 }
 
 .portfolio-img {
@@ -309,12 +307,7 @@ p {
         position: fixed;
         height: 50px;
     }
-    
-    .media-img {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 120px
-    }
+
 
     .callout-container {
         height: 90vh;
