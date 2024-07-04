@@ -15,6 +15,10 @@ p {
     color: white;
 }
 
+.bold {
+    color: #ffffff;
+}
+
 
 .callout-container {
     height: 50vh;
@@ -360,6 +364,20 @@ p {
     background-attachment: fixed;
 }
 
+.btm-container {
+    min-width: 300px;
+}
+
+.social {
+    font-size: 50px;
+    color: #a7a7a7;
+    display: block;
+}
+
+.social-block {
+    text-align: center;
+}
+
 @media only screen and (max-width: 767px) {
     .navalert-container {
         position: fixed;
@@ -380,13 +398,18 @@ p {
     }
 
     .projects-bg {
-        background-color: #ffffff;
+        background: url('../images/climb_dark.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .btm-bg {
+        background: url('../images/skydive_dark.jpg') no-repeat center;
+        background-size: cover;
     }
 
     .callout-container {
         background: url('../images/climb_dark.jpg') no-repeat center;
         background-size: cover;
-        background-attachment: fixed;
     }
 
     .opaque-overlay {
@@ -416,4 +439,6 @@ p {
         border: green;
         border-width: 20px;
     }
+
+
   }
