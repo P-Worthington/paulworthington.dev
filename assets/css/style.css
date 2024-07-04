@@ -134,6 +134,11 @@ p {
     color: #d0d0d0;
 }
 
+.education {
+    margin-top: -70px;
+    margin-left: 35px;
+}
+
 /* Block dividers */
 
 .portfolio-header {
@@ -440,5 +445,7 @@ p {
         border-width: 20px;
     }
 
-
+    .education {
+        margin-left: 15px;
+    }
   }
