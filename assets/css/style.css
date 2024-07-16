@@ -397,6 +397,13 @@ a:hover {
     margin-left: 35px;
 }
 
+.contact-btm-bg {
+    background-image: url('../images/london_background.jpg') no-repeat center;
+    height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
 @media only screen and (max-width: 767px) {
     .navalert-container {
         position: fixed;
