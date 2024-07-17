@@ -44,7 +44,7 @@ function fetchGitHubInformation(event) {
 
     $("#gh-user-data").html(
         `<div id="loader">
-            <img src="assets/css/loader.gif" alt="loading..." />
+            <img src="assets/css/loader.gif" alt="loading..." width="100px" height="100px"/>
         </div>`);
 
     $.when(
