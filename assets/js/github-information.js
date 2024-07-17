@@ -1,6 +1,6 @@
 function userInformationHTML(user) {
     return `
-        <h2>${user.name}
+        <h2>Paul Worthington
             <span class="small-name">
                 (@<a href="${user.html_url}" target="_blank">${user.login}</a>)
             </span>
