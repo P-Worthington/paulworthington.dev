@@ -406,3 +406,8 @@ footer {
     margin-top: 100px;
     border-top: solid 2px #333;
 }
+
+
+@media only screen and (max-width: 900px) {
+
+}

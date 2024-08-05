@@ -29,9 +29,9 @@
             
             <!--each line of the menu burger icon-->
             <div class="inner-header" id="burgerIcon" onclick="changeMenu(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+                <div class="bar1" id="bar1"></div>
+                <div class="bar2" id="bar2"></div>
+                <div class="bar3" id="bar3"></div>
             </div>
         </div>
         
@@ -39,11 +39,11 @@
             <div class="navbox" id="navContainer">
                 <div class="navigation-content">
                     <ul>
-                        <li><a href="index.html">Home<span>></span></a></li>
-                        <li><a href="#experience">experience<span>></span></a></li>
-                        <li><a href="#portfolio">Portfolio<span>></span></a></li>
-                        <li><a href="#contact">contact<span>></span></a></li>
-                        <li><a href="static/Resume/CV Paul Worthington .pdf" target="_blank">Curiculum Vitae<span>></span></a></li>
+                        <li><a href="#home" id="home-link">Home<span>></span></a></li>
+                        <li><a href="#experience" id="experience-link">experience<span>></span></a></li>
+                        <li><a href="#portfolio" id="portfolio-link">Portfolio<span>></span></a></li>
+                        <li><a href="#contact" id="contact-link">contact<span>></span></a></li>
+                        <li><a href="static/Resume/CV Paul Worthington .pdf" target="_blank" id="cv-link">Curiculum Vitae<span>></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -52,8 +52,10 @@
         <div class="under-heading"></div>
     </header>
 
+    <div id="home"></div>
+
     <main>
-        <div class="container" id="home">    
+        <div class="container" id="">    
             <div class="row">
                 <div class=" col-12 col-md-6">
                     <h1 class="section-title">Paul Worthington</h1>
@@ -80,8 +82,7 @@
               <div class="Timeline__text">
                 <h3>Wales Lacrosse</h3>
                 <p>
-                  Captained Wales Lacrosse at the 2019 European Championships
-                  earing 6 caps and the most valuable player award.
+                  Captained Wales Lacrosse at the 2019 European Championships earning 6 caps and the most valuable player award.
                 </p>
                 <span class="circle">1</span>
               </div>
@@ -139,6 +140,8 @@
             </div>
           </div>
         </div>
+
+        
     </section>
 
     <section class="portfolio-section" id="portfolio">

@@ -10,6 +10,12 @@ $(document).ready(function(){
     });
 });
 
+$("#home-link").click(function(){
+  $("#navContainer").slideToggle(100);
+  var one = document.getElementById("bar1")
+  one.removeClass("change")
+});
+
 function setupTypedReplace() {
     // the text node to type in
     var typed_class = 'typed-replaced';
@@ -83,3 +89,12 @@ function setupTypedReplace() {
       observer.observe(item);
     });
   });
+
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+})
+
