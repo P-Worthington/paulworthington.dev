@@ -1,7 +1,8 @@
 
 
-function changeMenu(x) {
-    x.classList.toggle("change");
+function changeMenu() {
+    var y = document.getElementById("burgerIcon")
+    y.classList.toggle("change");
 }
 
 $(document).ready(function(){
@@ -12,8 +13,22 @@ $(document).ready(function(){
 
 $("#home-link").click(function(){
   $("#navContainer").slideToggle(100);
-  var one = document.getElementById("bar1")
-  one.removeClass("change")
+  changeMenu();
+});
+
+$("#experience-link").click(function(){
+  $("#navContainer").slideToggle(100);
+  changeMenu();
+});
+
+$("#portfolio-link").click(function(){
+  $("#navContainer").slideToggle(100);
+  changeMenu();
+});
+
+$("#contact-link").click(function(){
+  $("#navContainer").slideToggle(100);
+  changeMenu();
 });
 
 function setupTypedReplace() {
