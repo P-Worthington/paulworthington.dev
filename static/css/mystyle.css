@@ -1,0 +1,10 @@
+#my-title {
+    background-color: red;
+    font-weight: bold;
+    position: fixed;
+    z-index: 999;
+    font-family: sans-serif;
+    left: auto;
+    right: auto;
+    width: 300px;
+}
