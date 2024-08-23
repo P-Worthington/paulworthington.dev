@@ -3,6 +3,24 @@ const windows = [...document.querySelectorAll("[data-window]")];
 const triggers = [...document.querySelectorAll("[data-window-trigger]")];
 const errors = [...document.querySelectorAll("[data-error-trigger]")];
 
+function newTime () {
+  const time = document.querySelector(".clock");
+  const date = new Date();
+  var hour = date.getHours();
+  var min = date.getMinutes();
+  if (min < 10) {
+    min = "0" + min;
+  }
+  if (hour < 10) {
+    hour = "0" + hour;
+  }
+  currTime = hour + ":" + min;
+  time.innerHTML = currTime;
+}
+
+newTime();
+setInterval(() => newTime(), 1000);
+
 start.addEventListener("click", (e) => {
 	if (start.checked) {
 		start.setAttribute("checked", "");
@@ -217,6 +235,8 @@ const updateTime = () => {
 		luxon.DateTime.TIME_SIMPLE
 	);
 	time.innerHTML = date;
+
 };
 updateTime();
 setInterval(() => updateTime(), 1000);
+
