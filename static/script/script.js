@@ -8,13 +8,21 @@ function newTime () {
   const date = new Date();
   var hour = date.getHours();
   var min = date.getMinutes();
+  var ident = "AM"
   if (min < 10) {
     min = "0" + min;
   }
   if (hour < 10) {
     hour = "0" + hour;
   }
-  currTime = hour + ":" + min;
+  if (hour > 11) {
+	ident = "PM"
+  }
+  if (hour > 13) {
+	hour -= 12;
+  }
+
+  currTime = hour + ":" + min + " " + ident;
   time.innerHTML = currTime;
 }
 

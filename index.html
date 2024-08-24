@@ -30,6 +30,11 @@
     <input data-name='control-panel' data-window-trigger hidden id='control-panel' type='checkbox'>
     <input data-minimize data-name='control-panel' hidden id='control-panel-minimize' type='checkbox'>
     <input data-maximize data-name='control-panel' hidden id='control-panel-maximize' type='checkbox'>
+
+    <input data-name='docs' data-window-trigger hidden id='docs' type='checkbox'>
+    <input data-minimize data-name='docs' hidden id='docs-minimize' type='checkbox'>
+    <input data-maximize data-name='docs' hidden id='docs-maximize' type='checkbox'>
+
     <input data-name='computer' data-window-trigger hidden id='computer' type='checkbox'>
     <input data-minimize data-name='computer' hidden id='computer-minimize' type='checkbox'>
     <input data-maximize data-name='computer' hidden id='computer-maximize' type='checkbox'>
@@ -59,9 +64,7 @@
     <main>
 
       <div id="my-title">
-        <img src="static/images/home-img/windows-home.png">
-        <h5>Paul</h5>
-        <h1>Worthington</h1>
+        <img src="static/images/home-img/home-img.jpg">
       </div>
 
       <div id='desktop'>
@@ -75,6 +78,10 @@
           <label class='desktop-icon label-inbox'>
             <span>Mail</span>
           </label>
+          <label class='desktop-icon label-folder-small' for='docs' tabindex='0'>
+            <span>My life</span>
+          </label>
+
 
         </div>
         <div id='windows'>
@@ -515,6 +522,7 @@
               </div>
             </div>
           </div>
+          
           <div class='window window-default' data-window id='window-computer'>
             <input class='toggle-menu' data-menu hidden id='computer-menu' type='checkbox'>
             <input checked class='menu-status-bar' hidden id='computer-menu-status-bar' type='checkbox'>
@@ -682,6 +690,7 @@
               </div>
             </div>
           </div>
+       
           <div class='window window-default' data-window id='window-notepad'>
             <input class='toggle-menu' data-menu hidden id='notepad-menu' type='checkbox'>
             <div class='window-inside'>
@@ -1590,6 +1599,7 @@
               <span>Control Panel</span>
             </label>
           </li>
+
           <li class='tab tab-computer' data-tab>
             <span class='activate'></span>
             <label class='label-disk-small' for='computer-minimize'>
