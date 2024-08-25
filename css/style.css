@@ -7,6 +7,63 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: #c0c0c0;
+    display: flex;
+    border-top: 2px solid white;
+    height: 40px;
+}
+
+.nav-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.start {
+    position: absolute;
+    left: 10px;
+    bottom: -3px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: -0.5px;
+    color: black;
+
+    background-color: #c0c0c0;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
+    box-shadow: 1px 1px 1px black;
+}
+
+.start img {
+    margin-bottom: 2px;
+}
+
+.start span {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.time {
+    position: absolute;
+    right: 10px;
+    bottom: -3px;
+    font-size: 12px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.time-inner {
+    position: relative;
+    padding-left: 50px;
 }
 
 .home-img {
@@ -44,7 +101,73 @@ footer {
     color: white;
 }
 
+.icon p {
+    font-size: 10px;
+}
+
 .icon > img {
     width: 50px;
     height: 50px;
+}
+
+.doc-window {
+    width: 80%;
+    max-width: 1000px;
+    left: 10%;
+    right: 20px;
+    top: 0;
+    margin-top: 20vh;
+    position: absolute;
+}
+
+.card-header {
+    height: 30px;
+}
+
+.card-header-buttons {
+    position: absolute;
+    right: -5px;
+    top: 0;
+    height: 26px;
+    width: 90px;
+}
+
+.docs-inner {
+    height: fit-content;
+    display: flex;
+}
+
+.doc {
+    height: fit-content;
+}
+
+.my-docs-item {
+    margin-right: 30px;
+    margin-left: 10px;
+    color: black;
+}
+
+.header-button-left {
+    height: 26px;
+    width: 52px;
+}
+
+.header-button-right {
+    height: 26px;
+    width: 26px;
+}
+
+.card-title > p {
+    font-size: 10px;
+}
+
+.card-text-zn {
+    height: fit-content;
+    min-height: 300px;
+    display: flex;
+    justify-content: start;
+}
+
+.wind {
+    padding: 0;
 }
