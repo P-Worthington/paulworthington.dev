@@ -31,15 +31,15 @@
                 <div class="icon icon-trash"><img src="img/icons/w95_32.ico"><p>Recycle Bin</p></div>
                 <div class="icon icon-com"><img src="img/icons/w95_16.ico"><p>My Computer</p></div>
                 <div class="icon icon-mail"><img src="img/icons/w98_mailbox_world.ico"><p>Mail</p></div>
-                <div class="icon icon-doc"><img src="img/icons/w95_4.ico"><p>My Docs</p></div>
+                <div id="docs-open" class="icon icon-doc"><img src="img/icons/w98_directory_open_file_mydocs.ico" onclick="docsWindowOpen()"><p>My Docs</p></div>
             </div>
 
-            <div class="window">
+            <div class="window" id="docs-window">
                 <div class="window-header">
                     <p>My Docs</p>
                     <div class="docs-header-btn">
                         <img class="doc-head-img-left" src="img/top-box-left.jpg">
-                        <img class="doc-head-img-right" src="img/top-box-right.jpg">
+                        <img id="docs-close" class="doc-head-img-right" src="img/top-box-right.jpg" onclick="docsWindowClose()">
                     </div>
                 </div>
                 <div class="window-md-icons">
@@ -50,17 +50,202 @@
                 </div>
 
                 <div class="center-box">
-                    <div class="docs docs-1"><img src="img/icons/w95_4.ico"><p>My Docs</p></div>
-                    <div class=""><img src="img/icons/w95_4.ico"><p>My Docs</p></div>
-                    <div class=""><img src="img/icons/w95_4.ico"><p>My Docs</p></div>
-                    <div class=""><img src="img/icons/w95_4.ico"><p>My Docs</p></div>
+                    <div class="docs docs-1"><img src="img/icons/w98_directory_open_file_mydocs.ico" onclick="expWindowOpen()"><p>Experience</p></div>
+                    <div class="docs docs-2"><img src="img/icons/w98_directory_open_file_mydocs.ico" onclick="proWindowOpen()"><p>Projects</p></div>
+                    <div class="docs docs-3"><img src="img/icons/w98_directory_open_file_mydocs.ico" onclick="aboutWindowOpen()"><p>About</p></div>
+                    <div class="docs docs-4"><img src="img/icons/w98_directory_open_file_mydocs.ico" onclick="langWindowOpen()"><p>Languages</p></div>
+                    <div class="docs docs-5"><img src="img/icons/w98_directory_open_file_mydocs.ico" onclick="contactWindowOpen()"><p>Contact Me</p></div>
+                    <div class="docs docs-6"><img src="img/icons/w98_directory_open_file_mydocs.ico"  onclick="resumeWindowOpen()"><p>Resume</p></div>
                 </div>
 
                 <div class="window-objects">
-                    <div class="nav-item start window-inner-obj">
+                    <div class="window-inner-obj">
                         <span class="">6 object(s)</span>
                     </div>
 
+                    <div class="window-inner-obj-2">
+                        <span class="">4.90 MB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="window layer-2" id="experience-window">
+                <div class="window-header">
+                    <p>Experience</p>
+                    <div class="docs-header-btn">
+                        <img class="doc-head-img-left" src="img/top-box-left.jpg">
+                        <img id="docs-close" class="doc-head-img-right" src="img/top-box-right.jpg" onclick="expWindowClose()">
+                    </div>
+                </div>
+                <div class="window-md-icons">
+                    <div><span>F</span>ile</div>
+                    <div><span>E</span>dit</div>
+                    <div><span>V</span>iew</div>
+                    <div><span>H</span>elp</div>
+                </div>
+
+                <div class="center-box">
+                    <div class="docs docs-1"><img src="img/icons/w95_64.ico"><p>Experience</p></div>
+                </div>
+
+                <div class="window-objects">
+                    <div class="window-inner-obj">
+                        <span class="">6 object(s)</span>
+                    </div>
+
+                    <div class="window-inner-obj-2">
+                        <span class="">4.90 MB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="window layer-2" id="projects-window">
+                <div class="window-header">
+                    <p>Projects</p>
+                    <div class="docs-header-btn">
+                        <img class="doc-head-img-left" src="img/top-box-left.jpg">
+                        <img id="docs-close" class="doc-head-img-right" src="img/top-box-right.jpg" onclick="proWindowClose()">
+                    </div>
+                </div>
+                <div class="window-md-icons">
+                    <div><span>F</span>ile</div>
+                    <div><span>E</span>dit</div>
+                    <div><span>V</span>iew</div>
+                    <div><span>H</span>elp</div>
+                </div>
+
+                <div class="center-box">
+                    <div class="docs docs-1"><img src="img/icons/w95_64.ico"><p>Projects</p></div>
+                </div>
+
+                <div class="window-objects">
+                    <div class="window-inner-obj">
+                        <span class="">6 object(s)</span>
+                    </div>
+
+                    <div class="window-inner-obj-2">
+                        <span class="">4.90 MB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="window layer-2" id="lang-window">
+                <div class="window-header">
+                    <p>Languages</p>
+                    <div class="docs-header-btn">
+                        <img class="doc-head-img-left" src="img/top-box-left.jpg">
+                        <img id="docs-close" class="doc-head-img-right" src="img/top-box-right.jpg" onclick="langWindowClose()">
+                    </div>
+                </div>
+                <div class="window-md-icons">
+                    <div><span>F</span>ile</div>
+                    <div><span>E</span>dit</div>
+                    <div><span>V</span>iew</div>
+                    <div><span>H</span>elp</div>
+                </div>
+
+                <div class="center-box">
+                    <div class="docs docs-1"><img src="img/icons/w95_64.ico"><p>Languages</p></div>
+                </div>
+
+                <div class="window-objects">
+                    <div class="window-inner-obj">
+                        <span class="">6 object(s)</span>
+                    </div>
+
+                    <div class="window-inner-obj-2">
+                        <span class="">4.90 MB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="window layer-2" id="about-window">
+                <div class="window-header">
+                    <p>About</p>
+                    <div class="docs-header-btn">
+                        <img class="doc-head-img-left" src="img/top-box-left.jpg">
+                        <img id="docs-close" class="doc-head-img-right" src="img/top-box-right.jpg" onclick="aboutWindowClose()">
+                    </div>
+                </div>
+                <div class="window-md-icons">
+                    <div><span>F</span>ile</div>
+                    <div><span>E</span>dit</div>
+                    <div><span>V</span>iew</div>
+                    <div><span>H</span>elp</div>
+                </div>
+
+                <div class="center-box">
+                    <div class="docs docs-1"><img src="img/icons/w95_64.ico"><p>About</p></div>
+                </div>
+
+                <div class="window-objects">
+                    <div class="window-inner-obj">
+                        <span class="">6 object(s)</span>
+                    </div>
+
+                    <div class="window-inner-obj-2">
+                        <span class="">4.90 MB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="window layer-2" id="contact-window">
+                <div class="window-header">
+                    <p>Contact</p>
+                    <div class="docs-header-btn">
+                        <img class="doc-head-img-left" src="img/top-box-left.jpg">
+                        <img id="docs-close" class="doc-head-img-right" src="img/top-box-right.jpg" onclick="contactWindowClose()">
+                    </div>
+                </div>
+                <div class="window-md-icons">
+                    <div><span>F</span>ile</div>
+                    <div><span>E</span>dit</div>
+                    <div><span>V</span>iew</div>
+                    <div><span>H</span>elp</div>
+                </div>
+
+                <div class="center-box">
+                    <div class="docs docs-1"><img src="img/icons/w95_64.ico"><p>contact</p></div>
+                </div>
+
+                <div class="window-objects">
+                    <div class="window-inner-obj">
+                        <span class="">6 object(s)</span>
+                    </div>
+
+                    <div class="window-inner-obj-2">
+                        <span class="">4.90 MB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="window layer-2" id="resume-window">
+                <div class="window-header">
+                    <p>Resume</p>
+                    <div class="docs-header-btn">
+                        <img class="doc-head-img-left" src="img/top-box-left.jpg">
+                        <img id="docs-close" class="doc-head-img-right" src="img/top-box-right.jpg" onclick="resumeWindowClose()">
+                    </div>
+                </div>
+                <div class="window-md-icons">
+                    <div><span>F</span>ile</div>
+                    <div><span>E</span>dit</div>
+                    <div><span>V</span>iew</div>
+                    <div><span>H</span>elp</div>
+                </div>
+
+                <div class="center-box">
+                    <div class="docs docs-1"><img src="img/icons/w95_64.ico"><p>Resume</p></div>
+                </div>
+
+                <div class="window-objects">
+                    <div class="window-inner-obj">
+                        <span class="">6 object(s)</span>
+                    </div>
+
+                    <div class="window-inner-obj-2">
+                        <span class="">4.90 MB</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -85,7 +270,7 @@
     <!-- pixel JS -->
     <script src="js/pixel.js"></script>
 
-    
+    <script src="js/script.js"></script>
 
 </body>
 

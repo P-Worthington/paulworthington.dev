@@ -118,12 +118,16 @@ footer {
     background-color: #c0c0c0;
     min-height: 415px;
     height: fit-content;
-    top: 200px;
+    top: 20vh;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-right: 1px solid darkslategray;
     border-bottom: 1px solid darkslategray;
     box-shadow: 1px 1px 1px black;
+}
+
+#docs-window {
+    display: none;
 }
 
 .window-header {
@@ -205,11 +209,40 @@ footer {
     border-top: 1px solid darkslategray;
     box-shadow: -1px -1px 1px black;
     width: 100px;
-    right: 0;
+    bottom: 10px;
+    left: 10px;
+}
+
+.window-inner-obj > span {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+}
+
+.window-inner-obj-2 {
+    position: absolute;
+    font-weight: 400;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
+    right: 10px;
+    left: 120px;
+    bottom: 10px;
+}
+
+.window-inner-obj-2 > span {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-left: 5px;
 }
 
 .docs > p {
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
 }
 
 .docs > img {
@@ -221,4 +254,81 @@ footer {
     position: absolute;
     left: 10px;
     top: 20px;
+}
+
+.docs-2 {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+
+.docs-3 {
+    position: absolute;
+    top: 20px;
+    left: 170px;
+}
+
+.docs-4 {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+
+.docs-5 {
+    position: absolute;
+    top: 20px;
+    left: 330px;
+}
+
+.docs-6 {
+    position: absolute;
+    top: 20px;
+    left: 410px;
+}
+
+@media only screen and (max-width: 617px) {
+    .docs-6 {
+        top: 110px;
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 522px) {
+    .docs-5 {
+        top: 110px;
+        left: 90px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .docs-4 {
+        top: 110px;
+        left: 170px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .docs-3 {
+        top: 200px;
+        left: 10px;
+    }
+
+    .docs-4 {
+        top: 200px;
+        left: 90px;
+    }
+}
+
+.layer-2 {
+    left: 20px;
+    top: 22vh;
+}
+
+#experience-window, 
+#projects-window, 
+#about-window, 
+#lang-window,
+#contact-window,
+#resume-window {
+    display: none;
 }
