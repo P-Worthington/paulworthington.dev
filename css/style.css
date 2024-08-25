@@ -110,70 +110,115 @@ footer {
     height: 50px;
 }
 
-.doc-window {
+.window {
+    position: absolute;
     width: 80%;
     max-width: 1000px;
-    left: 10%;
-    right: 20px;
-    top: 0;
-    margin-top: 20vh;
-    position: absolute;
-}
-
-.card-header {
-    height: 30px;
-}
-
-.card-header-buttons {
-    position: absolute;
-    right: -5px;
-    top: 0;
-    height: 26px;
-    width: 90px;
-}
-
-.docs-inner {
+    margin-left: 10%;
+    background-color: #c0c0c0;
+    min-height: 415px;
     height: fit-content;
+    top: 200px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
+    box-shadow: 1px 1px 1px black;
+}
+
+.window-header {
+    background-color: #000181;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+}
+
+.window-header > p {
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    margin-left: 20px;
+}
+.window-md-icons {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
     display: flex;
+    font-size: 12px;
 }
 
-.doc {
-    height: fit-content;
-}
-
-.my-docs-item {
-    margin-right: 30px;
+.window-md-icons > div {
     margin-left: 10px;
-    color: black;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
-.header-button-left {
-    height: 26px;
-    width: 52px;
+.window-md-icons div > span {
+    text-decoration: underline;
 }
 
-.header-button-right {
-    height: 26px;
-    width: 26px;
+.docs-header-btn {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 75px;
+    height: 25px;
 }
 
-.card-title > p {
-    font-size: 10px;
+.doc-head-img-left {
+    width: 45px;
+    height: 22px;
+    margin-right: -5px;
 }
 
-.card-text-zn {
-    height: fit-content;
+.doc-head-img-right {
+    width: 22px;
+    height: 22px;
+}
+
+.center-box {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 70px;
+    background-color: white;
     min-height: 300px;
+    height: fit-content;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
     display: flex;
-    justify-content: start;
 }
 
-.wind {
-    padding: 0;
+.window-inner-obj {
+    position: absolute;
+    font-weight: 400;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
+    width: 100px;
+    right: 0;
 }
 
-.card-body {
-    display: flex;
-    flex-direction: row;
-    height: 300px;
+.docs > p {
+    font-size: 12px;
+}
+
+.docs > img {
+    width: 50px;
+    margin-left: 8px;
+}
+
+.docs-1 {
+    position: absolute;
+    left: 10px;
+    top: 20px;
 }
