@@ -171,3 +171,9 @@ footer {
 .wind {
     padding: 0;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
