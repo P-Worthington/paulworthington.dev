@@ -360,22 +360,19 @@ footer {
     top: 22vh;
 }
 
-.layer-3 {
-    left: 40px;
-    top: 24vh;
-}
 
 #experience-window, 
 #projects-window, 
 #about-window, 
 #lang-window,
 #contact-window,
-#resume-window {
+#resume-window,
+#experience-text-doc {
     display: none;
 }
 
 
-.docs {
+.documents {
     position: absolute;
     min-width: 95%;
     margin-left: 2.5%;

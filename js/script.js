@@ -53,3 +53,11 @@ function resumeWindowOpen() {
 function resumeWindowClose() {
     document.getElementById("resume-window").style.display = "none";
 }
+
+function expDocOpen() {
+    document.getElementById("experience-text-doc").style.display = "block";
+}
+
+function expDocClose() {
+    document.getElementById("experience-text-doc").style.display = "none";
+}
