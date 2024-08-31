@@ -113,12 +113,28 @@ footer {
 .window {
     position: absolute;
     width: 80%;
-    max-width: 1000px;
+    max-width: 700px;
     margin-left: 10%;
     background-color: #c0c0c0;
     min-height: 415px;
     height: fit-content;
     top: 20vh;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
+    box-shadow: 1px 1px 1px black;
+}
+
+.document {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #c0c0c0;
+    z-index: 999;
+    height: fit-content;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-right: 1px solid darkslategray;
@@ -291,6 +307,21 @@ footer {
         top: 110px;
         left: 10px;
     }
+
+    main {
+        background-color: #008080;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .home-img > img {
+        width: 200px;
+        height:  200px;
+    }
+    
 }
 
 @media only screen and (max-width: 522px) {
@@ -317,11 +348,21 @@ footer {
         top: 200px;
         left: 90px;
     }
+
+    .home-img > img {
+        width: 150px;
+        height:  150px;
+    }
 }
 
 .layer-2 {
     left: 20px;
     top: 22vh;
+}
+
+.layer-3 {
+    left: 40px;
+    top: 24vh;
 }
 
 #experience-window, 
@@ -331,4 +372,32 @@ footer {
 #contact-window,
 #resume-window {
     display: none;
+}
+
+
+.docs {
+    position: absolute;
+    min-width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: -17%;
+    margin-bottom: 10%;
+    min-height: 90%;
+}
+
+.center-box-docs {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 70px;
+    bottom: 0;
+    background-color: white;
+    min-height: 700px;
+    height: fit-content;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
+    display: flex;
 }
