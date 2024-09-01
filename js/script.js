@@ -61,3 +61,11 @@ function expDocOpen() {
 function expDocClose() {
     document.getElementById("experience-text-doc").style.display = "none";
 }
+
+function proDocOpen() {
+    document.getElementById("projects-internet-doc").style.display = "block";
+}
+
+function proDocClose() {
+    document.getElementById("projects-internet-doc").style.display = "none";
+}
