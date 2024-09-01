@@ -367,7 +367,8 @@ footer {
 #lang-window,
 #contact-window,
 #resume-window,
-#experience-text-doc {
+#experience-text-doc
+ {
     display: none;
 }
 
@@ -377,7 +378,7 @@ footer {
     min-width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-top: -17%;
+    margin-top: -20%;
     margin-bottom: 10%;
     min-height: 90%;
 }
@@ -387,9 +388,37 @@ footer {
     left: 5px;
     right: 5px;
     top: 70px;
-    bottom: 0;
+    bottom: -20px;
     background-color: white;
-    min-height: 700px;
+    min-height: 730px;
+    height: fit-content;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
+    display: flex;
+}
+
+.center-box-docs > div {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+}
+.experience-list > li {
+    font-size: 10px;
+}
+
+.center-box-internet {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 120px;
+    bottom: -20px;
+    background-color: white;
+    min-height: 680px;
     height: fit-content;
     border-right: 2px solid white;
     border-bottom: 2px solid white;
