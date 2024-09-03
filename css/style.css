@@ -524,3 +524,68 @@ footer {
 .center-box-docs p {
     font-size: 12px;
 }
+
+.window-2 {
+    position: absolute;
+    width: 80%;
+    max-width: 700px;
+    margin-left: 10%;
+    background-color: #c0c0c0;
+    height: fit-content;
+    top: 20vh;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
+    box-shadow: 1px 1px 1px black;
+}
+
+.documents-2 {
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 90%;
+    height: fit-content;
+    margin-top: -20vh;
+    margin-bottom: 5%;
+
+}
+
+.center-box-internet-2 {
+
+    background-color: white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
+    margin-top: 120px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    height: 75vh;
+    overflow-y: auto;
+
+}
+
+.center-box-docs-2 {
+    background-color: white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 1px solid darkslategray;
+    border-top: 1px solid darkslategray;
+    box-shadow: -1px -1px 1px black;
+    margin-top: 80px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    height: 75vh;
+    overflow-y: auto;
+}
+
+.test-div {
+    width: 90%;
+    background-color: red;
+    height: 2000px;
+
+}
