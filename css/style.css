@@ -516,3 +516,7 @@ footer {
     width: 90%;
     margin-left: 5%;
 }
+
+.center-box-docs p {
+    font-size: 12px;
+}

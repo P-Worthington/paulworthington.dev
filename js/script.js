@@ -69,3 +69,11 @@ function proDocOpen() {
 function proDocClose() {
     document.getElementById("projects-internet-doc").style.display = "none";
 }
+
+function aboutDocOpen() {
+    document.getElementById("about-text-doc").style.display = "block";
+}
+
+function aboutDocClose() {
+    document.getElementById("about-text-doc").style.display = "none";
+}
